@@ -6,7 +6,7 @@
 <div class="card">
   <div class="card-body">
     <h2 class="card-title"><a href="{%url 'detail' blog.id%}" style="color: black">{{blog.title}}</a></25>
-      <h6 class="card-subtitle mb-2 text-muted">{{blog.pub_date}}</h6>
+      <h6 class="card-subtitle mb-2 text-muted">{{blog.pub_date}}, 작성자 : {{blog.writer}}</h6>
   </div>
 </div>
 {% endfor %}
